@@ -41,6 +41,9 @@ namespace SharpFFTPACK
 
         public override string ToString()
         {
+            if (this.Im < 0)
+                return String.Format("{0}{1}j", this.Re, this.Im);
+
             return String.Format("{0}+{1}j", this.Re, this.Im);
         }
     }
