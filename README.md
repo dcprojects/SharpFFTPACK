@@ -1,7 +1,7 @@
 # SharpFFTPACK
 C# version of [FFTPACK](http://www.netlib.org/fftpack/).
 
-FFTPACK is a package of Fortran subprograms for the fast Fourier transform of periodic and other symmetric sequences. It includes complex, real, sine, cosine, and quarter-wave transforms. This package is curently used in several environments, such as the Phyton [SciPy](http://docs.scipy.org/doc/scipy/reference/fftpack.html) package.
+FFTPACK is a package of Fortran subprograms for the fast Fourier transform of periodic and other symmetric sequences. It includes complex, real, sine, cosine, and quarter-wave transforms. This package is curently used in several environments, such as the Phyton [SciPy](http://docs.scipy.org/doc/scipy/reference/fftpack.html) module.
 
 SharpFFTPACK it is originally developed as part of the [SMath Studio](http://en.smath.info/) plugin [FFTPACK](http://en.smath.info/forum/yaf_postst7230_FFTPACK.aspx) (made by Davide Carpi).
 
