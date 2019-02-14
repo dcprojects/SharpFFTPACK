@@ -1383,9 +1383,7 @@ namespace SharpFFTPACK
             nf = 0;
             j = 0;
 
-            // factorize loop
-            while (true)
-            {
+            factorize_loop:
                 ++j;
 
                 if (j <= 4)
@@ -1420,11 +1418,6 @@ namespace SharpFFTPACK
                         wtable[2 + 2 * n + offset] = 2;
                     }
                 } while (nl != 1);
-
-                break;
-
-                factorize_loop: {}
-            }
 
             wtable[0 + 2 * n + offset] = n;
             wtable[1 + 2 * n + offset] = nf;
